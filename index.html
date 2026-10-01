@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StrumFour — live acoustic guitar desk</title>
+  <meta name="description" content="Four live nylon-guitar bars that give an unfinished loop a real guitar chair." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>StrumFour</h1>
+  <p class="lead">Acoustic-strum desk. The loop is programmed but nobody is sitting in the guitar chair. Session nylon plays four live bars — down-down-up, muted chuck, Travis pocket, campfire whole notes — then the verse or hook has wood in it. Live nylon, piano, upright, kit. Not a breath. Not a tag. Not a lead line.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Strum recipe</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · pocket 1–4 · strum 5–8 · hook 9–12</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Pocket loop</button>
+  <button id="playB">B · Full form</button>
+  <button id="play8">8 · Strum + hook</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
